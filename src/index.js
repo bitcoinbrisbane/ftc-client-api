@@ -109,7 +109,7 @@ app.get("/documents/", (req, res) => {
     const items = [{
         id: 123,
         date: "2023/1/1",
-        type: "Email Subject"
+        file_name: "Letter.pdf"
     }];
 
     res.send(items);
